@@ -39,3 +39,4 @@ jobs:
       - name: Run pytests
         run: |
           pytest ./backend -vv
+          pytest --cov-report term --cov=backend
